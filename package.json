@@ -1,0 +1,10 @@
+{
+  "name": "prj",
+  "version": "0.0.1",
+  "description": "Init your project with templates from npm",
+  "repository": "git@github.com:fritx/prj.git",
+  "dependencies": {
+    "colors-mini": "^1.0.2",
+    "fs-extra": "^0.12.0"
+  }
+}
