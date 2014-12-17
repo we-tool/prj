@@ -1,8 +1,11 @@
 {
   "name": "prj",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Init your project with templates from npm",
   "repository": "git@github.com:fritx/prj.git",
+  "bin": {
+    "prj": "bin/prj-cli.js"
+  },
   "dependencies": {
     "colors-mini": "^1.0.2",
     "fs-extra": "^0.12.0"

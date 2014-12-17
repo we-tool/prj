@@ -10,7 +10,7 @@ But other than [npm-clone](https://github.com/juliangruber/npm-clone), which use
 
 ```
 $ npm install --global prj
-$ cd my-site
+$ cd my-site/
 $ prj get-voice-site
 ```
 
@@ -26,7 +26,7 @@ Or:
 var init = require('prj').init
 var colors = require('colors-mini')
 
-init('./my-site', 'silent', function(e, stdout, stderr){
+init('./my-site/', 'get-voice-site', function(e, stdout, stderr){
   if (stdout) {
     console.log(colors.green(stdout))
   }
